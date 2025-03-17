@@ -22,7 +22,7 @@ body {
 }
 
 :root {
-	--main-color: rgba(235, 87, 87, 1);
+	--main-color: rgb(179 110 15);
 	--main-hover: rgba(33, 37, 41, 1);
 
 
@@ -1657,10 +1657,13 @@ padding: 100px 0 0;
 	width: 100%;
 	overflow: hidden;
 	border-radius: 30px;
+	height: 350px;
+	object-fit: fill;
 }
 .banner-img img{
 	transition: 0.5s;
 	border-radius: 30px;
+	width: 100%;
 }
 
 .banner-section:hover .banner-img img {
